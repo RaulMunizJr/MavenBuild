@@ -5,7 +5,6 @@ public class Thing {
 
   public int getN() {
     return n;
-    blaah
   }
 
   public void setN(int n) {
