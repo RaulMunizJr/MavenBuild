@@ -13,7 +13,7 @@ stage ('Test Cases Execution'){
 }
 
 stage ('Sonar Analysis'){
-	//sh 'mvn sonar:sonar -Dsonar.host.url=http://localhost:80'
+	sh 'mvn sonar:sonar -Dsonar.host.url=http://localhost:9000'
 }
 
 stage ('Archive Artifacts'){
